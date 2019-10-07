@@ -1,3 +1,13 @@
+#############################################################################
+#
+# Author            : Martin Lopez Jr.
+#
+# Purpose           : Create a python header with my commonly imported
+#                     packages and general figure preferences.
+#
+#############################################################################
+
+
 ########################################
 #                HEADER
 ########################################
@@ -199,40 +209,8 @@ plt.rc('legend',
         columnspacing = 2.0)    # column separation
 
 ### FONT
-#
-# font properties used by text.Text.  See
-# http://matplotlib.org/api/font_manager_api.html for more
-# information on font properties.  The 6 font properties used for font
-# matching are given below with their default values.
-#
-# The font.family property has five values: 'serif' (e.g., Times),
-# 'sans-serif' (e.g., Helvetica), 'cursive' (e.g., Zapf-Chancery),
-# 'fantasy' (e.g., Western), and 'monospace' (e.g., Courier).  Each of
-# these font families has a default list of font names in decreasing
-# order of priority associated with them.  When text.usetex is False,
-# font.family may also be one or more concrete font names.
-#
-# The font.style property has three values: normal (or roman), italic
-# or oblique.  The oblique style will be used for italic, if it is not
-# present.
-#
-# The font.variant property has two values: normal or small-caps.  For
-# TrueType fonts, which are scalable fonts, small-caps is equivalent
-# to using a font size of 'smaller', or about 83%% of the current font
-# size.
-#
-# The font.weight property has effectively 13 values: normal, bold,
-# bolder, lighter, 100, 200, 300, ..., 900.  Normal is the same as
-# 400, and bold is 700.  bolder and lighter are relative values with
-# respect to the current weight.
-#
-# The font.stretch property has 11 values: ultra-condensed,
-# extra-condensed, condensed, semi-condensed, normal, semi-expanded,
-# expanded, extra-expanded, ultra-expanded, wider, and narrower.  This
-# property is not currently implemented.
-#
-# The font.size property is the default font size for text, given in pts.
-# 10 pt is the standard value.
+# See http://matplotlib.org/api/font_manager_api.html for more
+# information on font properties.
 
 # font = {'family': 'serif',
 #         'color':  'black',
@@ -253,62 +231,8 @@ plt.rc('font',
         # small, medium, large, x-large, xx-large, larger, or smaller
         size = 20.0)
 
-## SERIF
-#plt.rcParams['font.serif'] = ['DejaVu Serif']
-#plt.rcParams['font.serif'] = ['Bitstream Vera Serif']
-#plt.rcParams['font.serif'] = ['New Century Schoolbook']
-#plt.rcParams['font.serif'] = ['Century Schoolbook L']
-#plt.rcParams['font.serif'] = ['Utopia']
-#plt.rcParams['font.serif'] = ['ITC Bookman']
-#plt.rcParams['font.serif'] = ['Bookman']
-#plt.rcParams['font.serif'] = ['Nimbus Roman No9 L']
-#plt.rcParams['font.serif'] = ['Times New Roman']
-#plt.rcParams['font.serif'] = ['Times']
-#plt.rcParams['font.serif'] = ['Palatino']
-#plt.rcParams['font.serif'] = ['Charter']
-#plt.rcParams['font.serif'] = ['serif']
-
 ## SANS-SERIF
-#plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
-#plt.rcParams['font.sans-serif'] = ['Bitstream Vera Sans']
-#plt.rcParams['font.sans-serif'] = ['Lucida Grande']
 plt.rcParams['font.sans-serif'] = ['Verdana']
-#plt.rcParams['font.sans-serif'] = ['Geneva']
-#plt.rcParams['font.sans-serif'] = ['Lucid']
-#plt.rcParams['font.sans-serif'] = ['Arial']
-#plt.rcParams['font.sans-serif'] = ['Helvetica']
-#plt.rcParams['font.sans-serif'] = ['Avant Garde']
-#plt.rcParams['font.sans-serif'] = ['sans-serif']
-
-## CURSIVE
-#plt.rcParams['font.cursive'] = ['Apple Chancery']
-#plt.rcParams['font.cursive'] = ['Textile']
-#plt.rcParams['font.cursive'] = ['Zapf Chancery']
-#plt.rcParams['font.cursive'] = ['Sand']
-#plt.rcParams['font.cursive'] = ['Script MT']
-#plt.rcParams['font.cursive'] = ['Felipa']
-#plt.rcParams['font.cursive'] = ['cursive']
-
-## FANTASY
-#plt.rcParams['font.fantasy'] = ['Comic Sans MS']
-#plt.rcParams['font.fantasy'] = ['Chicago']
-#plt.rcParams['font.fantasy'] = ['Charcoal']
-#plt.rcParams['font.fantasy'] = ['Impact']
-#plt.rcParams['font.fantasy'] = ['Western']
-#plt.rcParams['font.fantasy'] = ['Humor Sans']
-#plt.rcParams['font.fantasy'] = ['xkcd']
-#plt.rcParams['font.fantasy'] = ['fantasy']
-
-## MONOSPACE
-#plt.rcParams['font.monospace'] = ['DejaVu Sans Mono']
-#plt.rcParams['font.monospace'] = ['Bitstream Vera Sans Mono']
-#plt.rcParams['font.monospace'] = ['Andale Mono']
-#plt.rcParams['font.monospace'] = ['Nimbus Mono L']
-#plt.rcParams['font.monospace'] = ['Courier New']
-#plt.rcParams['font.monospace'] = ['Courier']
-#plt.rcParams['font.monospace'] = ['Fixed']
-#plt.rcParams['font.monospace'] = ['Terminal']
-#plt.rcParams['font.monospace'] = ['monospace']
 
 ### FIGURE
 # See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
