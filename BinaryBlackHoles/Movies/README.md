@@ -1,6 +1,6 @@
 # Movies
 
-All simulations are performed using the hydrodynamic code suite [GADGET](https://en.wikipedia.org/wiki/GADGET)
+All simulations are performed using the hydrodynamic code suite [GADGET](https://en.wikipedia.org/wiki/GADGET).
 
 ## Scenarios
 
