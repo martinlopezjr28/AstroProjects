@@ -17,7 +17,7 @@ Stellar Mass: 1 Solar Mass</br>
 Stellar Radius: 43 Solar Radii</br>
 Black Hole 1 Mass: 15 Solar Masses</br>
 Black Hole 2 Mass: 15 Solar Masses</br>
-Separation: 0.2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)
+Separation: 0.2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)</br>
 [Eccentricity](https://en.wikipedia.org/wiki/Orbital_eccentricity): 0.5</br>
 Time Unit: Solar [Dynamical Time](https://en.wikipedia.org/wiki/Dynamical_time_scale)
 
@@ -32,7 +32,7 @@ Stellar Mass: 1 Solar Mass</br>
 Stellar Radius: 1 Solar Radii</br>
 Black Hole 1 Mass: 15 Solar Masses</br>
 Black Hole 2 Mass: 15 Solar Masses</br>
-Separation: 2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)
+Separation: 2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)</br>
 [Eccentricity](https://en.wikipedia.org/wiki/Orbital_eccentricity): 0.5</br>
 Time Unit: Solar [Dynamical Time](https://en.wikipedia.org/wiki/Dynamical_time_scale)
 
@@ -47,6 +47,22 @@ Stellar Mass: 1 Solar Mass</br>
 Stellar Radius: 1 Solar Radii</br>
 Black Hole 1 Mass: 15 Solar Masses</br>
 Black Hole 2 Mass: 15 Solar Masses</br>
-Separation: 0.2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)
+Separation: 0.2 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)</br>
 [Eccentricity](https://en.wikipedia.org/wiki/Orbital_eccentricity): 0.5</br>
 Time Unit: Solar [Dynamical Time](https://en.wikipedia.org/wiki/Dynamical_time_scale)
+
+### Massive Overflow Scenario
+
+The massive overflow scenario is not unique. It has the same characteristics as the overflow scenior. However, the mass ratio between the star and black holes is increased so that more stellar material can be fed to both black holes, resulting in a higher change in spin.
+
+#### Simulation parameters
+
+Number of Particles: 100,000
+Stellar Mass: 5 Solar Masses</br>
+Stellar Radius: 6 Solar Radii</br>
+Black Hole 1 Mass: 10 Solar Masses</br>
+Black Hole 2 Mass: 10 Solar Masses</br>
+Separation: 0.1 [AU](https://en.wikipedia.org/wiki/Astronomical_unit)</br>
+[Eccentricity](https://en.wikipedia.org/wiki/Orbital_eccentricity): 0.5</br>
+Time Unit: Solar [Dynamical Time](https://en.wikipedia.org/wiki/Dynamical_time_scale)
+
