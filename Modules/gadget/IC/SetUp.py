@@ -151,8 +151,8 @@ def get_first_min(sol_array, this_min, BH):
     print('-------------------------')
     print('\nNumber of minimums:', len(bool_list))
     print('\nMinimum number ' + str(this_min) + ' has been chosen')
-    print('\nChosen minimum is:', str(round(sol_array[chosen_min_bool]/Ro,2),
-          ' Ro'
+    print('\nChosen minimum is:', str(round(sol_array[chosen_min_bool]/Ro,2)),
+          ' Ro')
     print('**************************')
 
     return chosen_min_bool
